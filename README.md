@@ -1,27 +1,52 @@
-# React + TypeScript + Vite
+# Food Delivery
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+**Food Delivery** — это веб-приложение для заказа блюд с удобным интерфейсом, созданное для кафе и ресторанов, чтобы упростить процесс онлайн-заказов для своих клиентов. Приложение разработано с использованием **React**, **TypeScript**, **CSS-модулей** и **Redux Toolkit** для эффективного управления состоянием и интуитивной навигации.
 
-Currently, two official plugins are available:
+## Основные возможности
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- **Меню** — отображает каталог доступных блюд с фотографиями, описанием и ценами, что позволяет клиентам легко выбирать блюда.
+- **Карточка блюда** — подробная страница с информацией о каждом блюде, включая ингредиенты и цену, с возможностью добавления блюда в корзину.
+- **Корзина** — пользователи могут просматривать свои заказы, редактировать количество блюд и видеть итоговую стоимость перед оформлением заказа.
+- **Регистрация и вход** — функционал для создания учетной записи и входа в систему.
+- **Подтверждение заказа** — после оформления заказа клиент получает уведомление о его успешной обработке.
 
-## Expanding the ESLint configuration
+## Скриншоты
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+### Меню
+![Меню](./src/assets/menu.jpg)
 
-- Configure the top-level `parserOptions` property like this:
+Меню с широким выбором блюд, включая фотографии, цены и краткое описание для каждого из них.
 
-```js
-   parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json'],
-    tsconfigRootDir: __dirname,
-   },
-```
+### Карточка блюда
+![Карточка блюда](./src/assets/dish-details.jpg)
 
-- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
-- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
+Подробная информация о блюде с возможностью добавления в корзину.
+
+### Корзина
+![Корзина](./src/assets/cart.jpg)
+
+Корзина, где пользователи могут видеть итоговую стоимость заказа и редактировать его перед подтверждением.
+
+### Вход и регистрация
+![Вход и регистрация](./src/assets/login-register.jpg)
+
+Страницы для входа и регистрации пользователей, чтобы сделать процесс заказа более персонализированным.
+
+### Подтверждение заказа
+![Подтверждение заказа](./src/assets/order-confirmation.jpg)
+
+Экраны, подтверждающие успешное оформление заказа с приглашением к дальнейшим заказам.
+
+## Стек технологий
+
+- **React** — библиотека для создания удобного пользовательского интерфейса.
+- **Redux Toolkit** — для управления глобальным состоянием приложения.
+- **TypeScript** — для типизации и повышения надежности кода.
+- **CSS-модули** — для стилизации компонентов и улучшения производительности.
+- **localStorage** — для хранения состояния корзины и данных пользователя.
+
+## Контакты
+
+- **Email:** vorosdmi@gmail.com
+- **Whatsapp (RUS):** [Дмитрий 79823455042](https://wa.me/79823455042)
+- **Whatsapp (EN):** [Dmitrii 34663409076](https://wa.me/34663409076)
