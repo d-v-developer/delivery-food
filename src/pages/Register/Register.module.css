@@ -1,0 +1,61 @@
+.registration {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    width: 100%;
+	max-width: 500px;
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.field {
+    display: flex;
+    flex-direction: column;
+}  
+
+.field label {
+    color: rgb(196, 196, 196);
+    font-size: 17px;
+    font-weight: 400;
+    line-height: 23px;
+    letter-spacing: 0%;
+    text-align: left;
+}
+
+.wrapper-btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.btn {
+    width: 248px;
+    padding: 20px 16px;
+    margin-top: 20px;
+}
+
+.footer {
+    display: flex;
+    flex-direction: column;
+    font-family: Open Sans;
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 19px;
+    letter-spacing: 0%;
+    text-align: center;
+}
+
+.footer a {
+    color: var(--primary-color);
+    text-decoration: none;
+}
+
+.error {
+	background: #FFC529;
+	color: white;
+	padding: 20px;
+}
